@@ -1,6 +1,6 @@
 .music-player{
 
-position:fixed;
+/* position:fixed;
 
 right:30px;
 
@@ -22,15 +22,15 @@ gap:15px;
 
 box-shadow:0 15px 35px rgba(0,0,0,.12);
 
-z-index:999;
+z-index:999; */
 
 }
 
 .music-player button{
 
-width:45px;
+width:5px;
 
-height:45px;
+height:5px;
 
 border:none;
 
@@ -56,10 +56,10 @@ transform:scale(1.1);
 
 .music-player span{
 
-font-size:16px;
+/* font-size:16px;
 
 color:#3b3029;
 
-font-weight:500;
+font-weight:500; */
 
 }

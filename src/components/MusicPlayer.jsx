@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { FaPause, FaPlay } from "react-icons/fa";
+// import { FaPause, FaPlay } from "react-icons/fa";
 import "../styles/MusicPlayer.css";
 
 export default function MusicPlayer({ started }) {
@@ -17,17 +17,17 @@ export default function MusicPlayer({ started }) {
     }
   }, [started]);
 
-  const toggleMusic = () => {
-    if (!audioRef.current) return;
+//   const toggleMusic = () => {
+//     if (!audioRef.current) return;
 
-    if (playing) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.play();
-    }
+//     if (playing) {
+//       audioRef.current.pause();
+//     } else {
+//       audioRef.current.play();
+//     }
 
-    setPlaying(!playing);
-  };
+//     setPlaying(!playing);
+//   };
 
   return (
     <>
@@ -36,9 +36,9 @@ export default function MusicPlayer({ started }) {
       </audio>
 
       <div className="music-player">
-        <button onClick={toggleMusic}>
+        {/* <button onClick={toggleMusic}>
           {playing ? <FaPause /> : <FaPlay />}
-        </button>
+        </button> */}
 
         <span>{playing ? "Music Playing" : "Play Music"}</span>
       </div>
