@@ -4,7 +4,7 @@ export default function Cover({ onOpen }) {
   return (
     <section className="cover">
       <div className="overlay">
-        <p className="subtitle">For Our Beloved Sister & Daughter</p>
+        <p className="subtitle">For Our Beloved Sister and Daughter</p>
 
         <h1>The Book of You</h1>
 
