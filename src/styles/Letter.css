@@ -1,0 +1,101 @@
+.letter-page{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:100px 10%;
+
+background:#faf6ef;
+
+}
+
+.letter-container{
+
+max-width:900px;
+
+background:white;
+
+padding:80px;
+
+border-radius:20px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+position:relative;
+
+}
+
+.letter-container::before{
+
+content:"";
+
+position:absolute;
+
+left:0;
+
+top:0;
+
+width:8px;
+
+height:100%;
+
+background:#c9a96a;
+
+border-radius:20px 0 0 20px;
+
+}
+
+.letter-container h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:64px;
+
+margin-bottom:40px;
+
+color:#3d3128;
+
+}
+
+.letter-container p{
+
+font-size:24px;
+
+line-height:2;
+
+margin-bottom:30px;
+
+color:#5d5148;
+
+}
+
+.signature{
+
+    margin-top:60px;
+
+    text-align:right;
+
+}
+
+.signature h3{
+
+    font-family:"Cormorant Garamond",serif;
+
+    font-size:38px;
+
+    margin-bottom:15px;
+
+}
+
+.signature p{
+
+    font-size:22px;
+
+    font-weight:500;
+
+}
