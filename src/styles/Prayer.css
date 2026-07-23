@@ -97,3 +97,197 @@ color:#b9975b;
 
     text-align:center;
 }
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width: 992px){
+
+    .prayer{
+
+        padding:80px 30px;
+
+    }
+
+    .prayer-card{
+
+        max-width:100%;
+
+        padding:60px 45px;
+
+    }
+
+    .arabic{
+
+        font-size:32px;
+
+        line-height:1.8;
+
+    }
+
+    .prayer h1{
+
+        font-size:50px;
+
+        margin-bottom:30px;
+
+    }
+
+    .prayer p{
+
+        font-size:20px;
+
+        line-height:1.9;
+
+    }
+
+    .prayer h2{
+
+        font-size:40px;
+
+    }
+
+    .closing-note{
+
+        font-size:24px;
+
+    }
+
+}
+
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width:768px){
+
+    .prayer{
+
+        padding:60px 20px;
+
+        align-items:flex-start;
+
+    }
+
+    .prayer-card{
+
+        width:100%;
+
+        padding:40px 25px;
+
+        border-radius:18px;
+
+    }
+
+    .arabic{
+
+        font-size:24px;
+
+        line-height:2;
+
+        margin-bottom:25px;
+
+    }
+
+    .prayer h1{
+
+        font-size:38px;
+
+        margin-bottom:25px;
+
+        line-height:1.2;
+
+    }
+
+    .prayer p{
+
+        font-size:17px;
+
+        line-height:1.9;
+
+        text-align:justify;
+
+        margin-bottom:18px;
+
+    }
+
+    .prayer h2{
+
+        font-size:32px;
+
+        margin-top:25px;
+
+    }
+
+    .closing-note{
+
+        margin-top:40px;
+
+        padding-top:25px;
+
+        font-size:20px;
+
+        line-height:1.8;
+
+    }
+
+}
+
+
+/* ===========================
+   Small Phones
+=========================== */
+
+@media (max-width:480px){
+
+    .prayer{
+
+        padding:40px 15px;
+
+    }
+
+    .prayer-card{
+
+        padding:30px 18px;
+
+    }
+
+    .arabic{
+
+        font-size:20px;
+
+        line-height:1.9;
+
+    }
+
+    .prayer h1{
+
+        font-size:32px;
+
+    }
+
+    .prayer p{
+
+        font-size:16px;
+
+        line-height:1.8;
+
+    }
+
+    .prayer h2{
+
+        font-size:28px;
+
+    }
+
+    .closing-note{
+
+        font-size:18px;
+
+        margin-top:30px;
+
+    }
+
+}
