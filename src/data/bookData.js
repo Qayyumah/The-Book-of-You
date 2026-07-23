@@ -46,10 +46,10 @@ const pages = [
 
     type: "video",
 
-    title: "The Little Moments We Never Want To Forget",
+    title: "A Glimpse of You",
 
     subtitle:
-      "Some memories are too precious to stay frozen in photographs. They deserve to be heard, seen and relived over and over again.",
+       "Sometimes, it isn't the grand celebrations or extraordinary moments that stay with us the longest. It's the simple ones—the smile you wear so effortlessly, the kindness in your eyes, and the warmth you carry wherever you go. This little glimpse is a beautiful reminder of the person Allah has blessed you to be, and of how grateful we are to call you our daughter, our sister, and one of the greatest blessings in our lives.",
 
     video: "/videos/video1.mp4"
 
@@ -80,7 +80,7 @@ const pages = [
 
     type: "video",
 
-    title: "One More Memory Before We Finish",
+    title: "One More Video Of You Before We Finish",
 
     subtitle:
       "Because some smiles deserve one more replay before we turn the final page.",

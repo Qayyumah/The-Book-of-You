@@ -28,7 +28,7 @@ z-index:999; */
 
 .music-player button{
 
-width:5px;
+/* width:5px;
 
 height:5px;
 
@@ -44,13 +44,13 @@ font-size:17px;
 
 cursor:pointer;
 
-transition:.3s;
+transition:.3s; */
 
 }
 
 .music-player button:hover{
 
-transform:scale(1.1);
+/* transform:scale(1.1); */
 
 }
 

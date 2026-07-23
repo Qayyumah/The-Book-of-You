@@ -17,17 +17,17 @@ export default function MusicPlayer({ started }) {
     }
   }, [started]);
 
-//   const toggleMusic = () => {
-//     if (!audioRef.current) return;
+  // const toggleMusic = () => {
+  //   if (!audioRef.current) return;
 
-//     if (playing) {
-//       audioRef.current.pause();
-//     } else {
-//       audioRef.current.play();
-//     }
+  //   if (playing) {
+  //     audioRef.current.pause();
+  //   } else {
+  //     audioRef.current.play();
+  //   }
 
-//     setPlaying(!playing);
-//   };
+  //   setPlaying(!playing);
+  // };
 
   return (
     <>
