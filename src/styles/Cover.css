@@ -103,3 +103,187 @@
 
     box-shadow: 0 12px 30px rgba(0,0,0,.2);
 }
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width: 992px) {
+
+    .cover{
+
+        padding:40px 25px;
+
+        height:auto;
+
+        min-height:100vh;
+
+    }
+
+    .overlay{
+
+        width:100%;
+
+        max-width:700px;
+
+        padding:50px 40px;
+
+    }
+
+    .cover h1{
+
+        font-size:4rem;
+
+    }
+
+    .cover h2{
+
+        font-size:1.7rem;
+
+    }
+
+    .quote{
+
+        font-size:1.2rem;
+
+        line-height:1.8;
+
+    }
+
+}
+
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width:768px){
+
+    .cover{
+
+        padding:20px;
+
+        min-height:100vh;
+
+        background-position:center;
+
+    }
+
+    .overlay{
+
+        width:100%;
+
+        padding:35px 25px;
+
+        border-radius:18px;
+
+    }
+
+    .subtitle{
+
+        font-size:.75rem;
+
+        letter-spacing:3px;
+
+        margin-bottom:15px;
+
+    }
+
+    .cover h1{
+
+        font-size:2.8rem;
+
+        line-height:1.1;
+
+        margin-bottom:15px;
+
+    }
+
+    .cover h2{
+
+        font-size:1.3rem;
+
+        margin-bottom:20px;
+
+        line-height:1.4;
+
+    }
+
+    .quote{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+        margin-bottom:30px;
+
+    }
+
+    .cover button{
+
+        width:100%;
+
+        padding:15px;
+
+        font-size:1rem;
+
+    }
+
+}
+
+
+/* ===========================
+   Small Phones
+=========================== */
+
+@media (max-width:480px){
+
+    .cover{
+
+        padding:15px;
+
+    }
+
+    .overlay{
+
+        padding:28px 18px;
+
+    }
+
+    .subtitle{
+
+        font-size:.68rem;
+
+        letter-spacing:2px;
+
+    }
+
+    .cover h1{
+
+        font-size:2.2rem;
+
+    }
+
+    .cover h2{
+
+        font-size:1.1rem;
+
+    }
+
+    .quote{
+
+        font-size:.95rem;
+
+        line-height:1.7;
+
+    }
+
+    .cover button{
+
+        padding:14px;
+
+        font-size:.95rem;
+
+    }
+
+}
